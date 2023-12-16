@@ -1,0 +1,43 @@
+\section{Fortschritte}
+\subsection{Woche 1-2}
+\textbf{Besprechung: 25.September 2023}
+Ich habe mit Marcus Hudritsch besprochen, dass ein Ziel dieses Projekts ist, dass der Betrachter von der Intel RealSense D435 erfasst wird, diese Daten werden dann in Unity importiert und Unity kann dann einige virtuelle Objekte erzeugen. Diese Objekte werden nun verschoben wenn sich der Betrachter bewegt.\\
+Die Kamera werde ich am Freitag, 29.Septemper 2023 abholen k\"onnen. Das Modell der Kamera habe ich mir notiert, damit ich mit den Recherchen beginnen kann.\\
+\textbf{Einbindung mit Unity}
+Ich habe verschiedene Quellen im Internet studiert, wie man die Intel Kamera in die Unity Game Engine importieren kann. Mir ist nun aber noch nicht so ganz klar, nach welchem Ansatz dies dann funktioniert. In einem Bericht wurde die Intel RealSenseSDK 2.0 mit CMAKE kompiliert, was dann ein Unity Projekt generiert. Leider ist dieses Unity Projekt nicht brauchbar, da viele Teile fehlen. Ein anderer Ansatz nimmt ein von RealSenseSDK 2.0 generiertes Paket und dieses wird dann in Unity importiert. Dieser Ansatz scheint eher zu funktionieren.\\
+\textbf{RealSense D435} 
+Die Kamera habe ich bis jetzt noch nicht. Ich habe mal ein paar Youtube Videos geschaut, wie die Kamera mit der Software: Intel RealSense Viewer benutzt werden kann. Mittels Skripttext der eingebunden wird zeigt der Cursor in Echtzeit an, wie gross die Distanz des vom Cursor gew\"ahlten Punktes von der Kamera bis zum Punkt auf dem Objekt ist. \\
+\textbf{Latex Dokument}
+Die Projektarbeit 2 werde ich mit Latex machen. Da ich noch keine Erfahrungen mit Latex habe, lerne ich die n\"otigen Grundlagen und versuche eine Dokumentstruktur aufzubauen wie sie \"ublich ist f\"ur eine solche Arbeit.\\ \textbf{Erkenntnisse}
+Ich habe versucht die Intel RealSenseSDK 2016 mit Unity 2017 laufen zu lassen. Das hat soweit auch in Windows 11 funktioniert. Leider ist aber die Kamera D435 nicht kompatibel mit der SDK und wird in Unity nicht erkannt. \\ Das neuste SDK von Intel wurde stark reduziert und bietet in Unity keine Anwengugen mit Face Tracking. \\ Ich werde also nun versuchen mit der Nuitrack SDK mein Projekt aufzubauen. Diese SDK ist gut dokumentiert, bietet Features für Facetracking und auch für Skeletal Tracking.
+
+\subsection{Woche 3-4}
+\textbf{Besprechung: 4.Oktober 2023}
+Ich habe mit Marcus Hudritsch besprochen, dass es mit dem RealSense SDK von Intel nicht möglich sein wird, da dieses abgespeckte SDK die nötigen Tools fürs Tracking nicht mehr bietet. Ich werde also mit dem Nuitrack SDK versuchen die Person zu tracken.
+
+\subsection{Woche 5-6}
+\textbf{Besprechung: 18.Oktober 2023}
+Das Tracking mit Nuitrack läuft soweit. Dieses SDK bietet sogar mehr Features als dass ich benötige. Beispielsweise ist es m\"oglich auch die Rotation vom Kopf, also die Drehung in den Achsen x, y und z zu tracken. Die Rotation in der x Achse entspricht dem pitch, die Rotation in der y Achse einem yaw und die Rotation in der z Achse einem roll.
+Ein kleiner Nachteil vom Nuitrack SDK ist, dass es nach 3 Minuten stoppt. Wer die Applikation länger laufen möchte muss dann bezahlen.
+Mit Marcus Hudritsch habe ich besprochen, dass ich nun eine künstliche Wand aufbauen kann mit einem Fenster darin. Die virtuelle Kamera filmt dann die ganze Szene etwas vor dieser Wand. Was uns jetzt interessiert ist eigentlich nur der Ausschnitt des Fensters innerhalb der k\"unstlichen Wand.
+
+\subsection{Woche 7-8}
+\textbf{Besprechung: 1.November 2023}
+Ich habe nun dieses Fenster als grau eingefärbten Screen dargestellt. Mit Marcus Hudritsch habe ich das weitere Vorgehen besprochen. Mir war bis jetzt noch nicht ganz klar, wie ich vorgehen muss um diesen Screen zu entzerren.
+Wir haben besprochen, dass mit der LookAt Funktion in Unity die Kamera stets auf den Mittelpunkt vom Screen gerichtet werden kann. Weiter braucht es einen Shader um die Bildmanipulationen vorzunehmen. Da ich noch keine Erfahrung mit Shadern habe, ist mir da vieles noch völlig unklar.
+
+\textbf{Besprechung: 10.November 2023}
+Diese Besprechung hielten wir vor Ort in Biel. Zusammen schauten wir an, was beim Aufbau noch verbessert werden muss. Der Blickwinkel vom Betrachter war bisher eher zu hoch, so dass der Screen zu stark von oben betrachtet wird.
+
+\subsection{Woche 9-10}
+\textbf{Besprechung: 15.November 2023}
+Ich habe nun einen Shader welcher die Bildmanipulation mittels einer Matrix möglich macht. Leider stammt dieser Shader von einer Rotations-Matrix. Rotation und Scaling funktionieren normal. Eine Translation ist aber so noch nicht möglich. Weiter ist mir nicht klar, wie ich mit dieser Matrix die Eckpunkte vom Screen finden kann und dann auch noch entzerren. Dieser Shader mit der Rotations-Matrix scheint mir also nur wenig weiter zu helfen.
+
+\subsection{Woche 11-12}
+\textbf{Besprechung: 29.November 2023}
+Ich habe nun einen Shader der als Pixel Shader wirkt eingebaut. Zuerst habe ich mit einer Homographie Matrix versucht das Polygon vom Screen zu entzerren. Leider hat dies nur funktioniert, wenn ich genau gerade vor dem Screen stand. Sobald ich etwas seitlich stand resultierte dies in einer Verzerrung. Leider stimmt mein Algorithmus noch nicht, wie ich die Eckpunkte vom Screen finde. Weil ich mit der Homographie Matrix nicht weitergekommen bin, habe ich OpenCV über einen Wrapper in mein Projekt eingebaut. Dies hat erst beim zweiten Versuch geklappt. Ich habe auch noch mit EmguCv als Wrapper rumgeübt, was aber nicht wirklich funktioniert hat.
+Bei OpenCV hatte ich grosse Probleme die Funktionen so einzubauen, dass auch ein sichtbares Bild angezeigt wird. OpenCV verwendet andere Matrizen als Unity und auch die Textures müssen als in OpenCV als Matrix dargestellt werden. Weiter werden die Texturen zwar auf der GPU gespeichert, sind dann aber nicht einfach verfügbar auf der CPU und müssen speziell aufgerufen und abgefragt werden. Nun soweit der Stand von meinem Projekt. Die Entzerrrung mit OpenCV funktioniert nun auch zusammen mit dem PixelShader. 
+Was noch fehlt ist die Berechnung der Eckpunkte vom Screen. Mein Ansatz dies zu bewerkstelligen ist eine Clipping Plane durch den Mittelpunkt vom Screen zu legen mit der Normalen dieser Ebene in Richtung vom Mittelpunkt zur Kamera. Verschiebt sich die Kamera, dreht sich diese Ebene um den Mittelpunkt vom Screen, welcher in meinem Projekt die Koordinaten (0, 0, 0) hat. Nun muss ich nur die Eckpunkte vom Screen perspektivisch, das heisst in Richtung Eckpunkt zur Kamera mit dieser Clipping Ebene schneiden. Die Schnittpunkte relativ zum gesamten Clipping Fenster entsprechen dann den Eckpunkten auf meiner Projektion. 
+Es scheint, dass Unity die Clipping Plane etwas anders berechnet, als ich dies tue. Ich habe noch leichte Abweichungen.
+Marcus Hudritsch hat mir das Kameramodell noch etwas näher gebracht. Möglich, dass ich mit diesem Ansatz eher zum Ziel komme.
+
