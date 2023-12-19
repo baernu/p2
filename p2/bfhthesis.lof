@@ -16,6 +16,10 @@
 \contentsline {figure}{\numberline {2.5}{\ignorespaces Unity, OpenCV}}{12}{figure.caption.28}%
 \contentsline {figure}{\numberline {2.6}{\ignorespaces Unity, Berechnung Kameramatrix}}{13}{figure.caption.29}%
 \contentsline {figure}{\numberline {2.7}{\ignorespaces Unity, Methoden Kameramatrix}}{14}{figure.caption.30}%
+\contentsline {figure}{\numberline {2.8}{\ignorespaces Unity, Methode ViewportToWorldPoint}}{14}{figure.caption.31}%
+\contentsline {figure}{\numberline {2.9}{\ignorespaces Unity, Ebene}}{15}{figure.caption.32}%
+\contentsline {figure}{\numberline {2.10}{\ignorespaces Unity, Projektionsvektoren}}{15}{figure.caption.33}%
+\contentsline {figure}{\numberline {2.11}{\ignorespaces Unity, Eckpunkte vom Screen}}{16}{figure.caption.34}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 

@@ -114,12 +114,39 @@ Ich habe versucht mittels Kameramodell die Transformationsmatrix für die Eckpun
 	\label{fig:Kameramatrix Methoden}
 \end{figure}
 
-In Figure~\ref{fig:Berechnung Kameramatrix} versuche ich die Kamera-Matrix zu berechnen, wie bereits im Kapitel Kameramodell beschrieben.
+In Figure~\ref{fig:Berechnung Kameramatrix} versuche ich die Kamera-Matrix zu berechnen, wie bereits im Kapitel Kameramodell beschrieben. In Figure~\ref{fig:Berechnung Kameramatrix} verwende ich die Unity Methoden: GetGPUProjectionMatrix, welche mir eine resultierende Matrix aus Viewmatrix * Projectionmatrix berechnet. Nun fehlt mir noch die Viewportmatrix. Ich habe versucht diese Matrix in einem ersten Schritt mit GL.Viewport festzulegen und dann noch etwas anzupassen mit der Matrix clip-to-viewport-matrix. Leider ohne Erfolg. Deshalb habe ich mich dann für einen etwas vereinfachten Ansatz entschieden.
 
 \subsection{Projektion der Eckpunkte auf der Zielebene}
 Mein Ansatz den ich umgesetzt habe funktioniert wie folgt: 
-Unity hat eine Funktion welche mir die Eckpunkte von der Clipping Ebene entsprechend dem z Wert herausscheibt. Ich wähle diese Ebene durch den Nullpunkt, auf welchen sich die Render-Kamera immer richtet. 
-Nun projeziere ich die Eckpunkte vom Screen in der Verlängerung von der Render-Kamera durch die Eckpunkte. Die Schnittpunkte mit der Ebene müssen nun nur noch relativ zu den Ecken der Clipping Ebene berechnet werden. 
+Unity hat eine Funktion welche mir die Eckpunkte von der Clipping Ebene entsprechend dem z Wert herausscheibt. Siehe Figure~\ref{fig:ViewportToWorldPoin}
+
+\begin{figure}[H]
+	\includegraphics[width=1.0\linewidth]{ViewportToWorldPoint}
+	\caption{Unity, Methode ViewportToWorldPoint}
+	\label{fig:ViewportToWorldPoint}
+\end{figure}
+
+\begin{figure}[H]
+	\includegraphics[width=1.0\linewidth]{Ebene}
+	\caption{Unity, Ebene}
+	\label{fig:Ebene}
+\end{figure}
+
+\begin{figure}[H]
+	\includegraphics[width=1.0\linewidth]{Projektionsvektor}
+	\caption{Unity, Projektionsvektoren}
+	\label{fig:Projektionsvektoren}
+\end{figure}
+
+
+Ich wähle diese Ebene durch den Nullpunkt, auf welchen sich die Render-Kamera immer richtet. Die Berechnung der Ebene ist in der Abbildung Figure~\ref{fig:Ebene} dargestellt.\\
+Nun projeziere ich die Eckpunkte vom Screen in der Verlängerung von der Render-Kamera durch die Eckpunkte. Die Berechnung dieser perspektivischen Vektoren in Richtung Eckpunkte vom Screen ist in der Abbildung  Figure~\ref{fig:Projektionsvektoren} dargestellt. Die Schnittpunkte mit der Ebene müssen nun nur noch relativ zu den Ecken der Clipping Ebene berechnet werden. Siehe untenstehende Graphik. Figure~\ref{fig:Eckpunkte} \\ Eigentlich hat auch der Richtungsvektor in y-Richtung eine x-Komponente, aber nur, wenn der Richtungsvektor in x-Richtung eine y-Komponente hat. Zur Vereinfachung nehme ich an, dass die Kamera horizontal ausgerichtet ist und dann wird dieser y-Anteil in x-Richtung gleich Null.
+
+\begin{figure}[H]
+	\includegraphics[width=1.0\linewidth]{Eckpunkte}
+	\caption{Unity, Eckpunkte vom Screen}
+	\label{fig:Eckpunkte}
+\end{figure}
 
 
 

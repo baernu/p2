@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.9.24) (preloaded format=pdflatex 2023.9.27)  17 DEC 2023 17:43
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.9.24) (preloaded format=pdflatex 2023.9.27)  19 DEC 2023 17:32
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -2175,58 +2175,102 @@ Package pdftex.def Info: pictures/Kameramatrix2.png  used on input line 112.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [13 <./pictures/KameraMatrix.png>]
-Overfull \hbox (6.74231pt too wide) in paragraph at lines 120--123
-\T1/SourceSerifPro-LF/m/n/10.95 der Ver-längerung von der Render-Kamera durch d
-ie Eck-punkte. Die Schnittpunkte
+
+LaTeX Warning: Reference `fig:ViewportToWorldPoin' on page 14 undefined on inpu
+t line 121.
+
+<pictures/ViewportToWorldPoint.png, id=250, 486.01575pt x 79.497pt>
+File: pictures/ViewportToWorldPoint.png Graphic file (type png)
+<use pictures/ViewportToWorldPoint.png>
+Package pdftex.def Info: pictures/ViewportToWorldPoint.png  used on input line 
+124.
+(pdftex.def)             Requested size: 388.38017pt x 63.52853pt.
+<pictures/Ebene.png, id=251, 483.60675pt x 290.88675pt>
+File: pictures/Ebene.png Graphic file (type png)
+<use pictures/Ebene.png>
+Package pdftex.def Info: pictures/Ebene.png  used on input line 130.
+(pdftex.def)             Requested size: 388.38017pt x 233.61073pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [14 <./pictures/Kameramatrix2.png> <./pictures/ViewportToWorldPoint.png>]
+<pictures/Projektionsvektor.png, id=260, 111.41624pt x 51.19125pt>
+File: pictures/Projektionsvektor.png Graphic file (type png)
+<use pictures/Projektionsvektor.png>
+Package pdftex.def Info: pictures/Projektionsvektor.png  used on input line 136
+.
+(pdftex.def)             Requested size: 388.38017pt x 178.46043pt.
+
+Overfull \hbox (13.9682pt too wide) in paragraph at lines 142--144
+\T1/SourceSerifPro-LF/m/n/10.95 im-mer richtet. Die Berech-nung der Ebene ist i
+n der Ab-bil-dung Fig-ure [][]2.9[][] dargestellt. 
  []
 
-) (content/discussion.tex) (content/fazit.tex) (content/ausblick.tex)
-Underfull \vbox (badness 2384) has occurred while \output is active []
 
- [14 <./pictures/Kameramatrix2.png>] [15] [16
+Overfull \hbox (5.00465pt too wide) in paragraph at lines 142--144
+\T1/SourceSerifPro-LF/m/n/10.95 Nun pro-jeziere ich die Eck-punkte vom Screen i
+n der Ver-längerung von der Render-
+ []
+
+[15 <./pictures/Ebene.png> <./pictures/Projektionsvektor.png>]
+<pictures/Eckpunkte.png, id=273, 211.38976pt x 237.88875pt>
+File: pictures/Eckpunkte.png Graphic file (type png)
+<use pictures/Eckpunkte.png>
+Package pdftex.def Info: pictures/Eckpunkte.png  used on input line 146.
+(pdftex.def)             Requested size: 388.38017pt x 437.0926pt.
+)
+(content/discussion.tex) (content/fazit.tex
+Overfull \hbox (2.28062pt too wide) in paragraph at lines 2--1
+\T1/SourceSerifPro-LF/m/n/10.95 gerichtet ist, bekomme ich in meiner gek-lippte
+n Ebene für den hor-i-zon-talen Rich-
+ []
 
 
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-]
-<pictures/sig_muster.png, id=263, 94.21703pt x 50.76634pt>
+ [16 <./pictures/Eckpunkte.png>]) (content/ausblick.tex [17]) [18]
+<pictures/sig_muster.png, id=287, 94.21703pt x 50.76634pt>
 File: pictures/sig_muster.png Graphic file (type png)
 <use pictures/sig_muster.png>
 Package pdftex.def Info: pictures/sig_muster.png  used on input line 177.
 (pdftex.def)             Requested size: 71.13188pt x 38.3295pt.
-<pictures/sig_example.png, id=264, 106.18813pt x 51.20972pt>
+<pictures/sig_example.png, id=288, 106.18813pt x 51.20972pt>
 File: pictures/sig_example.png Graphic file (type png)
 <use pictures/sig_example.png>
 Package pdftex.def Info: pictures/sig_example.png  used on input line 177.
 (pdftex.def)             Requested size: 71.13188pt x 34.30328pt.
- [17 <./pictures/sig_muster.png> <./pictures/sig_example.png>] (bfhthesis.bbl [
-18
+ [19
+
+
+
+ <./pictures/sig_muster.png> <./pictures/sig_example.png>] (bfhthesis.bbl [20
 
 
 
 ]
 chapter without number
-) [19] [20
+) [21] [22
 
 
 ] (bfhthesis.lof)
 \tf@lof=\write9
 \openout9 = `bfhthesis.lof'.
 
- [21] [22
+ [23] [24
 
 
 ] (bfhthesis.lot)
 \tf@lot=\write10
 \openout10 = `bfhthesis.lot'.
 
- [23] [24
+ [25] [26
 
 
 ] (bfhthesis.lol)
 \tf@lol=\write11
 \openout11 = `bfhthesis.lol'.
 
-(bfhthesis.gls [25] [26
+(bfhthesis.gls [27] [28
 
 
 ]
@@ -2237,12 +2281,12 @@ SIC) \T1/SourceSerifPro-LF/m/n/10.95 An in-te-grated cir-cuit which
 
 LaTeX Font Info:    Font shape `T1/SourceSerifPro-LF/m/n' will be
 (Font)              scaled to size 8.0pt on input line 12.
-) [27
+) [29
 
 
 ]
 No file bfhthesis.ind.
-[28
+[30
 
 
 
@@ -2254,7 +2298,7 @@ Overfull \hbox (2.4927pt too wide) in paragraph at lines 3--13
 h habe ver-sucht die In-tel Re-alSens-eSDK 2016 mit Unity 2017 laufen
  []
 
-[29]
+[31]
 Overfull \hbox (3.53183pt too wide) in paragraph at lines 19--23
 \T1/SourceSerifPro-LF/m/n/10.95 SDK bi-etet sogar mehr Fea-tures als dass ich b
 enötige. Beispiel-sweise ist es möglich
@@ -2266,7 +2310,7 @@ Overfull \hbox (5.82072pt too wide) in paragraph at lines 25--28
 o-LF/m/n/10.95 Ich habe nun dieses Fen-ster als grau einge-färbten
  []
 
-[30]
+[32]
 Overfull \hbox (4.41898pt too wide) in paragraph at lines 37--43
 \T1/SourceSerifPro-LF/m/n/10.95 und auch die Tex-tures müssen als in OpenCV als
  Ma-trix dargestellt wer-den. Weiter
@@ -2278,7 +2322,7 @@ Overfull \hbox (36.20866pt too wide) in paragraph at lines 37--43
 um gesamten Clip-ping Fen-ster entsprechen
  []
 
-) [31] (bfhthesis.aux)
+) [33] (bfhthesis.aux)
  ***********
 LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2020/03/25>
@@ -2291,10 +2335,10 @@ Package rerunfilecheck Info: File `bfhthesis.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 51710 strings out of 475210
- 1121848 string characters out of 5756112
+ 51765 strings out of 475210
+ 1123190 string characters out of 5756112
  1936785 words of memory out of 5000000
- 72265 multiletter control sequences out of 15000+600000
+ 72314 multiletter control sequences out of 15000+600000
  777104 words of font info for 87 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  128i,24n,136p,10958b,1223s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -2305,9 +2349,9 @@ ito/Nunito-Regular.pfb><C:/Users/bernh/AppData/Local/Programs/MiKTeX/fonts/type
 ograms/MiKTeX/fonts/type1/adobe/sourceserifpro/SourceSerifPro-Regular.pfb><C:/U
 sers/bernh/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/ms
 am10.pfb>
-Output written on bfhthesis.pdf (37 pages, 2022459 bytes).
+Output written on bfhthesis.pdf (39 pages, 2149115 bytes).
 PDF statistics:
- 509 PDF objects out of 1000 (max. 8388607)
- 112 named destinations out of 1000 (max. 500000)
- 394 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 538 PDF objects out of 1000 (max. 8388607)
+ 118 named destinations out of 1000 (max. 500000)
+ 414 words of extra memory for PDF output out of 10000 (max. 10000000)
 
