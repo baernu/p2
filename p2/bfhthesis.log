@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.9.24) (preloaded format=pdflatex 2023.9.27)  19 DEC 2023 17:32
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.9.24) (preloaded format=pdflatex 2023.9.27)  19 DEC 2023 17:53
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -1939,12 +1939,6 @@ chapter without number
 LaTeX Font Info:    Font shape `T1/Nunito-TOsF/b/n' will be
 (Font)              scaled to size 20.74pt on input line 155.
 (content/abstract.tex
-Overfull \hbox (21.34128pt too wide) in paragraph at lines 2--3
-\T1/SourceSerifPro-LF/m/n/10.95 trackt den Be-tra-chter, sobald sich dieser inn
-ner-halb dem ge-track-ten Bere-ich befindet.
- []
-
-
 Overfull \hbox (8.9037pt too wide) in paragraph at lines 2--3
 \T1/SourceSerifPro-LF/m/n/10.95 sicht-bare Ob-jekte sich mit der Po-si-tion des
  Be-tra-chters per-spek-tivisch ver-schieben.
@@ -1985,7 +1979,7 @@ Overfull \hbox (8.10931pt too wide) in paragraph at lines 3--1
 r diesem Screen und be-greift erst allmäh-
  []
 
-<pictures/435d.png, id=112, 1445.4pt x 640.3925pt>
+<pictures/435d.png, id=108, 1445.4pt x 640.3925pt>
 File: pictures/435d.png Graphic file (type png)
 <use pictures/435d.png>
 Package pdftex.def Info: pictures/435d.png  used on input line 8.
@@ -1999,7 +1993,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 ]
-<pictures/435d_back.jpg, id=118, 1405.25pt x 606.265pt>
+<pictures/435d_back.jpg, id=114, 1405.25pt x 606.265pt>
 File: pictures/435d_back.jpg Graphic file (type jpg)
 <use pictures/435d_back.jpg>
 Package pdftex.def Info: pictures/435d_back.jpg  used on input line 18.
@@ -2022,14 +2016,14 @@ Overfull \hbox (0.80806pt too wide) in paragraph at lines 31--32
 e er anzeigen kann, den RGB Frame
  []
 
-<pictures/depth_sensor.png, id=120, 925.65825pt x 497.4585pt>
+<pictures/depth_sensor.png, id=116, 925.65825pt x 497.4585pt>
 File: pictures/depth_sensor.png Graphic file (type png)
 <use pictures/depth_sensor.png>
 Package pdftex.def Info: pictures/depth_sensor.png  used on input line 34.
 (pdftex.def)             Requested size: 233.03047pt x 125.22964pt.
 [2 <./pictures/435d.png> <./pictures/435d_back.jpg>] [3 <./pictures/depth_senso
 r.png>]
-<pictures/nuitrack_features.png, id=145, 961.79324pt x 454.69875pt>
+<pictures/nuitrack_features.png, id=141, 961.79324pt x 454.69875pt>
 File: pictures/nuitrack_features.png Graphic file (type png)
 <use pictures/nuitrack_features.png>
 Package pdftex.def Info: pictures/nuitrack_features.png  used on input line 58.
@@ -2045,7 +2039,7 @@ https://opencv.org/[][] und für das Unity
 Underfull \vbox (badness 6559) has occurred while \output is active []
 
  [4 <./pictures/nuitrack_features.png>]
-<pictures/homography.png, id=161, 934.49126pt x 457.71pt>
+<pictures/homography.png, id=157, 934.49126pt x 457.71pt>
 File: pictures/homography.png Graphic file (type png)
 <use pictures/homography.png>
 Package pdftex.def Info: pictures/homography.png  used on input line 77.
@@ -2055,14 +2049,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 82--83
 
  []
 
-<pictures/homography_abbildung.png, id=162, 338.4645pt x 97.5645pt>
+<pictures/homography_abbildung.png, id=158, 338.4645pt x 97.5645pt>
 File: pictures/homography_abbildung.png Graphic file (type png)
 <use pictures/homography_abbildung.png>
 Package pdftex.def Info: pictures/homography_abbildung.png  used on input line 
 86.
 (pdftex.def)             Requested size: 233.03047pt x 67.17366pt.
 [5 <./pictures/homography.png> <./pictures/homography_abbildung.png>]
-<pictures/homography_gleichungssystem.png, id=172, 425.79076pt x 165.61874pt>
+<pictures/homography_gleichungssystem.png, id=168, 425.79076pt x 165.61874pt>
 File: pictures/homography_gleichungssystem.png Graphic file (type png)
 <use pictures/homography_gleichungssystem.png>
 Package pdftex.def Info: pictures/homography_gleichungssystem.png  used on inpu
@@ -2079,7 +2073,7 @@ Overfull \hbox (6.30762pt too wide) in paragraph at lines 11--12
 ch genau so um-set-zen wie beschrieben. 
  []
 
-<pictures/Screen.png, id=186, 787.743pt x 419.76825pt>
+<pictures/Screen.png, id=182, 787.743pt x 419.76825pt>
 File: pictures/Screen.png Graphic file (type png)
 <use pictures/Screen.png>
 Package pdftex.def Info: pictures/Screen.png  used on input line 16.
@@ -2094,7 +2088,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 1331) has occurred while \output is active []
 
  [8 <./pictures/Screen.png>]
-<pictures/RawImage.png, id=205, 1145.4795pt x 501.072pt>
+<pictures/RawImage.png, id=201, 1145.4795pt x 501.072pt>
 File: pictures/RawImage.png Graphic file (type png)
 <use pictures/RawImage.png>
 Package pdftex.def Info: pictures/RawImage.png  used on input line 39.
@@ -2103,7 +2097,7 @@ Package pdftex.def Info: pictures/RawImage.png  used on input line 39.
 
 LaTeX Warning: Reference `fig:RawImage' on page 9 undefined on input line 44.
 
-<pictures/Rotationsshader.png, id=206, 394.47375pt x 437.83575pt>
+<pictures/Rotationsshader.png, id=202, 394.47375pt x 437.83575pt>
 File: pictures/Rotationsshader.png Graphic file (type png)
 <use pictures/Rotationsshader.png>
 Package pdftex.def Info: pictures/Rotationsshader.png  used on input line 52.
@@ -2117,7 +2111,7 @@ Overfull \hbox (1.69435pt too wide) in paragraph at lines 63--65
 -ram-e-ter die Main-tex-tur als Eingabe-
  []
 
-<pictures/PixelAlgoShader.png, id=214, 289.68225pt x 361.95226pt>
+<pictures/PixelAlgoShader.png, id=210, 289.68225pt x 361.95226pt>
 File: pictures/PixelAlgoShader.png Graphic file (type png)
 <use pictures/PixelAlgoShader.png>
 Package pdftex.def Info: pictures/PixelAlgoShader.png  used on input line 68.
@@ -2128,7 +2122,7 @@ Overfull \hbox (11.23848pt too wide) in paragraph at lines 83--89
 au der Ma-trizen hat und dass OpenCV
  []
 
-<pictures/OpenCV.png, id=231, 678.1335pt x 407.72325pt>
+<pictures/OpenCV.png, id=227, 678.1335pt x 407.72325pt>
 File: pictures/OpenCV.png Graphic file (type png)
 <use pictures/OpenCV.png>
 Package pdftex.def Info: pictures/OpenCV.png  used on input line 91.
@@ -2161,12 +2155,12 @@ xel-Shader übergeben. Dies passiert
 Underfull \vbox (badness 1342) has occurred while \output is active []
 
  [12 <./pictures/OpenCV.png>]
-<pictures/KameraMatrix.png, id=239, 537.207pt x 292.09125pt>
+<pictures/KameraMatrix.png, id=235, 537.207pt x 292.09125pt>
 File: pictures/KameraMatrix.png Graphic file (type png)
 <use pictures/KameraMatrix.png>
 Package pdftex.def Info: pictures/KameraMatrix.png  used on input line 106.
 (pdftex.def)             Requested size: 388.38017pt x 211.17462pt.
-<pictures/Kameramatrix2.png, id=240, 486.01575pt x 240.9pt>
+<pictures/Kameramatrix2.png, id=236, 486.01575pt x 240.9pt>
 File: pictures/Kameramatrix2.png Graphic file (type png)
 <use pictures/Kameramatrix2.png>
 Package pdftex.def Info: pictures/Kameramatrix2.png  used on input line 112.
@@ -2179,13 +2173,13 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 LaTeX Warning: Reference `fig:ViewportToWorldPoin' on page 14 undefined on inpu
 t line 121.
 
-<pictures/ViewportToWorldPoint.png, id=250, 486.01575pt x 79.497pt>
+<pictures/ViewportToWorldPoint.png, id=246, 486.01575pt x 79.497pt>
 File: pictures/ViewportToWorldPoint.png Graphic file (type png)
 <use pictures/ViewportToWorldPoint.png>
 Package pdftex.def Info: pictures/ViewportToWorldPoint.png  used on input line 
 124.
 (pdftex.def)             Requested size: 388.38017pt x 63.52853pt.
-<pictures/Ebene.png, id=251, 483.60675pt x 290.88675pt>
+<pictures/Ebene.png, id=247, 483.60675pt x 290.88675pt>
 File: pictures/Ebene.png Graphic file (type png)
 <use pictures/Ebene.png>
 Package pdftex.def Info: pictures/Ebene.png  used on input line 130.
@@ -2194,12 +2188,12 @@ Package pdftex.def Info: pictures/Ebene.png  used on input line 130.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [14 <./pictures/Kameramatrix2.png> <./pictures/ViewportToWorldPoint.png>]
-<pictures/Projektionsvektor.png, id=260, 111.41624pt x 51.19125pt>
+<pictures/Projektionsvektor.png, id=256, 111.41624pt x 51.19125pt>
 File: pictures/Projektionsvektor.png Graphic file (type png)
 <use pictures/Projektionsvektor.png>
 Package pdftex.def Info: pictures/Projektionsvektor.png  used on input line 136
 .
-(pdftex.def)             Requested size: 388.38017pt x 178.46043pt.
+(pdftex.def)             Requested size: 116.51523pt x 53.53445pt.
 
 Overfull \hbox (13.9682pt too wide) in paragraph at lines 142--144
 \T1/SourceSerifPro-LF/m/n/10.95 im-mer richtet. Die Berech-nung der Ebene ist i
@@ -2212,29 +2206,29 @@ Overfull \hbox (5.00465pt too wide) in paragraph at lines 142--144
 n der Ver-längerung von der Render-
  []
 
-[15 <./pictures/Ebene.png> <./pictures/Projektionsvektor.png>]
-<pictures/Eckpunkte.png, id=273, 211.38976pt x 237.88875pt>
+<pictures/Eckpunkte.png, id=260, 211.38976pt x 237.88875pt>
 File: pictures/Eckpunkte.png Graphic file (type png)
 <use pictures/Eckpunkte.png>
 Package pdftex.def Info: pictures/Eckpunkte.png  used on input line 146.
-(pdftex.def)             Requested size: 388.38017pt x 437.0926pt.
-)
-(content/discussion.tex) (content/fazit.tex
+(pdftex.def)             Requested size: 233.03047pt x 262.2592pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [15 <./pictures/Ebene.png> <./pictures/Projektionsvektor.png>]) (content/discu
+ssion.tex)
+(content/fazit.tex
 Overfull \hbox (2.28062pt too wide) in paragraph at lines 2--1
 \T1/SourceSerifPro-LF/m/n/10.95 gerichtet ist, bekomme ich in meiner gek-lippte
 n Ebene für den hor-i-zon-talen Rich-
  []
 
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [16 <./pictures/Eckpunkte.png>]) (content/ausblick.tex [17]) [18]
-<pictures/sig_muster.png, id=287, 94.21703pt x 50.76634pt>
+[16 <./pictures/Eckpunkte.png>]) (content/ausblick.tex) [17] [18]
+<pictures/sig_muster.png, id=283, 94.21703pt x 50.76634pt>
 File: pictures/sig_muster.png Graphic file (type png)
 <use pictures/sig_muster.png>
 Package pdftex.def Info: pictures/sig_muster.png  used on input line 177.
 (pdftex.def)             Requested size: 71.13188pt x 38.3295pt.
-<pictures/sig_example.png, id=288, 106.18813pt x 51.20972pt>
+<pictures/sig_example.png, id=284, 106.18813pt x 51.20972pt>
 File: pictures/sig_example.png Graphic file (type png)
 <use pictures/sig_example.png>
 Package pdftex.def Info: pictures/sig_example.png  used on input line 177.
@@ -2256,37 +2250,9 @@ chapter without number
 \tf@lof=\write9
 \openout9 = `bfhthesis.lof'.
 
- [23] [24
-
-
-] (bfhthesis.lot)
-\tf@lot=\write10
-\openout10 = `bfhthesis.lot'.
-
- [25] [26
-
-
-] (bfhthesis.lol)
-\tf@lol=\write11
-\openout11 = `bfhthesis.lol'.
-
-(bfhthesis.gls [27] [28
-
-
-]
-Overfull \hbox (2.24084pt too wide) in paragraph at lines 9--9
-[]\T1/SourceSerifPro-LF/b/n/10.95 Application-Specific In-te-grated Cir-cuit (A
-SIC) \T1/SourceSerifPro-LF/m/n/10.95 An in-te-grated cir-cuit which
- []
-
-LaTeX Font Info:    Font shape `T1/SourceSerifPro-LF/m/n' will be
-(Font)              scaled to size 8.0pt on input line 12.
-) [29
-
-
-]
+ [23]
 No file bfhthesis.ind.
-[30
+[24
 
 
 
@@ -2298,31 +2264,37 @@ Overfull \hbox (2.4927pt too wide) in paragraph at lines 3--13
 h habe ver-sucht die In-tel Re-alSens-eSDK 2016 mit Unity 2017 laufen
  []
 
-[31]
-Overfull \hbox (3.53183pt too wide) in paragraph at lines 19--23
-\T1/SourceSerifPro-LF/m/n/10.95 SDK bi-etet sogar mehr Fea-tures als dass ich b
-enötige. Beispiel-sweise ist es möglich
+[25]
+Overfull \hbox (14.54861pt too wide) in paragraph at lines 33--35
+\T1/SourceSerifPro-LF/m/n/10.95 Screen finden kann und dann auch noch entzer-re
+n. Dieser Shader mit der Rotations-
  []
 
 
-Overfull \hbox (5.82072pt too wide) in paragraph at lines 25--28
-\T1/SourceSerifPro-LF/b/n/10.95 Besprechung: 1.Novem-ber 2023 \T1/SourceSerifPr
-o-LF/m/n/10.95 Ich habe nun dieses Fen-ster als grau einge-färbten
- []
+Underfull \vbox (badness 1168) has occurred while \output is active []
 
-[32]
-Overfull \hbox (4.41898pt too wide) in paragraph at lines 37--43
-\T1/SourceSerifPro-LF/m/n/10.95 und auch die Tex-tures müssen als in OpenCV als
- Ma-trix dargestellt wer-den. Weiter
+ [26]
+Overfull \hbox (6.68307pt too wide) in paragraph at lines 37--43
+\T1/SourceSerifPro-LF/m/n/10.95 zweiten Ver-such geklappt. Ich habe auch noch m
+it EmguCv als Wrap-per rumgeübt,
  []
 
 
-Overfull \hbox (36.20866pt too wide) in paragraph at lines 37--43
-\T1/SourceSerifPro-LF/m/n/10.95 Ebene schnei-den. Die Schnittpunkte rel-a-tiv z
-um gesamten Clip-ping Fen-ster entsprechen
+Overfull \hbox (6.98636pt too wide) in paragraph at lines 37--43
+\T1/SourceSerifPro-LF/m/n/10.95 Mar-cus Hu-dritsch hat mir das Kam-er-amod-ell 
+noch et-was näher ge-bracht. Möglich,
  []
 
-) [33] (bfhthesis.aux)
+)
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [27]
+
+Package glossaries Warning: No \printglossary or \printglossaries found. 
+(Remove \makeglossaries if you don't want any glossaries.) 
+This document will not have a glossary.
+
+[28] (bfhthesis.aux)
  ***********
 LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2020/03/25>
@@ -2335,11 +2307,11 @@ Package rerunfilecheck Info: File `bfhthesis.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 51765 strings out of 475210
- 1123190 string characters out of 5756112
- 1936785 words of memory out of 5000000
- 72314 multiletter control sequences out of 15000+600000
- 777104 words of font info for 87 fonts, out of 8000000 for 9000
+ 51719 strings out of 475210
+ 1122326 string characters out of 5756112
+ 1937785 words of memory out of 5000000
+ 72286 multiletter control sequences out of 15000+600000
+ 754863 words of font info for 85 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  128i,24n,136p,10958b,1223s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/bernh/AppData/Local/Programs/MiKTeX/fonts/type1/public/nunito/Nunit
@@ -2349,9 +2321,9 @@ ito/Nunito-Regular.pfb><C:/Users/bernh/AppData/Local/Programs/MiKTeX/fonts/type
 ograms/MiKTeX/fonts/type1/adobe/sourceserifpro/SourceSerifPro-Regular.pfb><C:/U
 sers/bernh/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/ms
 am10.pfb>
-Output written on bfhthesis.pdf (39 pages, 2149115 bytes).
+Output written on bfhthesis.pdf (34 pages, 2140047 bytes).
 PDF statistics:
- 538 PDF objects out of 1000 (max. 8388607)
- 118 named destinations out of 1000 (max. 500000)
- 414 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 503 PDF objects out of 1000 (max. 8388607)
+ 110 named destinations out of 1000 (max. 500000)
+ 398 words of extra memory for PDF output out of 10000 (max. 10000000)
 
