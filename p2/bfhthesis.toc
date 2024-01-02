@@ -30,6 +30,8 @@
 \contentsline {section}{\numberline {2.2}Analyse}{16}{section.2.2}%
 \contentsline {section}{\numberline {2.3}Fazit}{17}{section.2.3}%
 \contentsline {section}{\numberline {2.4}Ausblick}{17}{section.2.4}%
+\contentsline {section}{\numberline {2.5}Erklärung der Studierenden}{19}{section.2.5}%
+\contentsline {section}{\numberline {2.6}.bib file}{20}{section.2.6}%
 \contentsline {chapter}{\nonumberline Bibliography}{21}{chapter*.36}%
 \contentsline {chapter}{\nonumberline List of Figures}{23}{chapter*.37}%
 \contentsline {chapter}{\numberline {A}Anhang}{25}{appendix.A}%

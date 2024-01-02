@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.9.24) (preloaded format=pdflatex 2023.9.27)  19 DEC 2023 17:53
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.9.24) (preloaded format=pdflatex 2023.9.27)  2 JAN 2024 12:55
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -1979,7 +1979,7 @@ Overfull \hbox (8.10931pt too wide) in paragraph at lines 3--1
 r diesem Screen und be-greift erst allmäh-
  []
 
-<pictures/435d.png, id=108, 1445.4pt x 640.3925pt>
+<pictures/435d.png, id=111, 1445.4pt x 640.3925pt>
 File: pictures/435d.png Graphic file (type png)
 <use pictures/435d.png>
 Package pdftex.def Info: pictures/435d.png  used on input line 8.
@@ -1993,7 +1993,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 ]
-<pictures/435d_back.jpg, id=114, 1405.25pt x 606.265pt>
+<pictures/435d_back.jpg, id=117, 1405.25pt x 606.265pt>
 File: pictures/435d_back.jpg Graphic file (type jpg)
 <use pictures/435d_back.jpg>
 Package pdftex.def Info: pictures/435d_back.jpg  used on input line 18.
@@ -2016,14 +2016,14 @@ Overfull \hbox (0.80806pt too wide) in paragraph at lines 31--32
 e er anzeigen kann, den RGB Frame
  []
 
-<pictures/depth_sensor.png, id=116, 925.65825pt x 497.4585pt>
+<pictures/depth_sensor.png, id=119, 925.65825pt x 497.4585pt>
 File: pictures/depth_sensor.png Graphic file (type png)
 <use pictures/depth_sensor.png>
 Package pdftex.def Info: pictures/depth_sensor.png  used on input line 34.
 (pdftex.def)             Requested size: 233.03047pt x 125.22964pt.
 [2 <./pictures/435d.png> <./pictures/435d_back.jpg>] [3 <./pictures/depth_senso
 r.png>]
-<pictures/nuitrack_features.png, id=141, 961.79324pt x 454.69875pt>
+<pictures/nuitrack_features.png, id=144, 961.79324pt x 454.69875pt>
 File: pictures/nuitrack_features.png Graphic file (type png)
 <use pictures/nuitrack_features.png>
 Package pdftex.def Info: pictures/nuitrack_features.png  used on input line 58.
@@ -2039,7 +2039,7 @@ https://opencv.org/[][] und für das Unity
 Underfull \vbox (badness 6559) has occurred while \output is active []
 
  [4 <./pictures/nuitrack_features.png>]
-<pictures/homography.png, id=157, 934.49126pt x 457.71pt>
+<pictures/homography.png, id=160, 934.49126pt x 457.71pt>
 File: pictures/homography.png Graphic file (type png)
 <use pictures/homography.png>
 Package pdftex.def Info: pictures/homography.png  used on input line 77.
@@ -2049,14 +2049,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 82--83
 
  []
 
-<pictures/homography_abbildung.png, id=158, 338.4645pt x 97.5645pt>
+<pictures/homography_abbildung.png, id=161, 338.4645pt x 97.5645pt>
 File: pictures/homography_abbildung.png Graphic file (type png)
 <use pictures/homography_abbildung.png>
 Package pdftex.def Info: pictures/homography_abbildung.png  used on input line 
 86.
 (pdftex.def)             Requested size: 233.03047pt x 67.17366pt.
 [5 <./pictures/homography.png> <./pictures/homography_abbildung.png>]
-<pictures/homography_gleichungssystem.png, id=168, 425.79076pt x 165.61874pt>
+<pictures/homography_gleichungssystem.png, id=171, 425.79076pt x 165.61874pt>
 File: pictures/homography_gleichungssystem.png Graphic file (type png)
 <use pictures/homography_gleichungssystem.png>
 Package pdftex.def Info: pictures/homography_gleichungssystem.png  used on inpu
@@ -2073,7 +2073,7 @@ Overfull \hbox (6.30762pt too wide) in paragraph at lines 11--12
 ch genau so um-set-zen wie beschrieben. 
  []
 
-<pictures/Screen.png, id=182, 787.743pt x 419.76825pt>
+<pictures/Screen.png, id=185, 787.743pt x 419.76825pt>
 File: pictures/Screen.png Graphic file (type png)
 <use pictures/Screen.png>
 Package pdftex.def Info: pictures/Screen.png  used on input line 16.
@@ -2088,7 +2088,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 1331) has occurred while \output is active []
 
  [8 <./pictures/Screen.png>]
-<pictures/RawImage.png, id=201, 1145.4795pt x 501.072pt>
+<pictures/RawImage.png, id=204, 1145.4795pt x 501.072pt>
 File: pictures/RawImage.png Graphic file (type png)
 <use pictures/RawImage.png>
 Package pdftex.def Info: pictures/RawImage.png  used on input line 39.
@@ -2097,7 +2097,7 @@ Package pdftex.def Info: pictures/RawImage.png  used on input line 39.
 
 LaTeX Warning: Reference `fig:RawImage' on page 9 undefined on input line 44.
 
-<pictures/Rotationsshader.png, id=202, 394.47375pt x 437.83575pt>
+<pictures/Rotationsshader.png, id=205, 394.47375pt x 437.83575pt>
 File: pictures/Rotationsshader.png Graphic file (type png)
 <use pictures/Rotationsshader.png>
 Package pdftex.def Info: pictures/Rotationsshader.png  used on input line 52.
@@ -2111,7 +2111,7 @@ Overfull \hbox (1.69435pt too wide) in paragraph at lines 63--65
 -ram-e-ter die Main-tex-tur als Eingabe-
  []
 
-<pictures/PixelAlgoShader.png, id=210, 289.68225pt x 361.95226pt>
+<pictures/PixelAlgoShader.png, id=213, 289.68225pt x 361.95226pt>
 File: pictures/PixelAlgoShader.png Graphic file (type png)
 <use pictures/PixelAlgoShader.png>
 Package pdftex.def Info: pictures/PixelAlgoShader.png  used on input line 68.
@@ -2122,7 +2122,7 @@ Overfull \hbox (11.23848pt too wide) in paragraph at lines 83--89
 au der Ma-trizen hat und dass OpenCV
  []
 
-<pictures/OpenCV.png, id=227, 678.1335pt x 407.72325pt>
+<pictures/OpenCV.png, id=230, 678.1335pt x 407.72325pt>
 File: pictures/OpenCV.png Graphic file (type png)
 <use pictures/OpenCV.png>
 Package pdftex.def Info: pictures/OpenCV.png  used on input line 91.
@@ -2155,12 +2155,12 @@ xel-Shader übergeben. Dies passiert
 Underfull \vbox (badness 1342) has occurred while \output is active []
 
  [12 <./pictures/OpenCV.png>]
-<pictures/KameraMatrix.png, id=235, 537.207pt x 292.09125pt>
+<pictures/KameraMatrix.png, id=238, 537.207pt x 292.09125pt>
 File: pictures/KameraMatrix.png Graphic file (type png)
 <use pictures/KameraMatrix.png>
 Package pdftex.def Info: pictures/KameraMatrix.png  used on input line 106.
 (pdftex.def)             Requested size: 388.38017pt x 211.17462pt.
-<pictures/Kameramatrix2.png, id=236, 486.01575pt x 240.9pt>
+<pictures/Kameramatrix2.png, id=239, 486.01575pt x 240.9pt>
 File: pictures/Kameramatrix2.png Graphic file (type png)
 <use pictures/Kameramatrix2.png>
 Package pdftex.def Info: pictures/Kameramatrix2.png  used on input line 112.
@@ -2173,13 +2173,13 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 LaTeX Warning: Reference `fig:ViewportToWorldPoin' on page 14 undefined on inpu
 t line 121.
 
-<pictures/ViewportToWorldPoint.png, id=246, 486.01575pt x 79.497pt>
+<pictures/ViewportToWorldPoint.png, id=249, 486.01575pt x 79.497pt>
 File: pictures/ViewportToWorldPoint.png Graphic file (type png)
 <use pictures/ViewportToWorldPoint.png>
 Package pdftex.def Info: pictures/ViewportToWorldPoint.png  used on input line 
 124.
 (pdftex.def)             Requested size: 388.38017pt x 63.52853pt.
-<pictures/Ebene.png, id=247, 483.60675pt x 290.88675pt>
+<pictures/Ebene.png, id=250, 483.60675pt x 290.88675pt>
 File: pictures/Ebene.png Graphic file (type png)
 <use pictures/Ebene.png>
 Package pdftex.def Info: pictures/Ebene.png  used on input line 130.
@@ -2188,7 +2188,7 @@ Package pdftex.def Info: pictures/Ebene.png  used on input line 130.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [14 <./pictures/Kameramatrix2.png> <./pictures/ViewportToWorldPoint.png>]
-<pictures/Projektionsvektor.png, id=256, 111.41624pt x 51.19125pt>
+<pictures/Projektionsvektor.png, id=259, 111.41624pt x 51.19125pt>
 File: pictures/Projektionsvektor.png Graphic file (type png)
 <use pictures/Projektionsvektor.png>
 Package pdftex.def Info: pictures/Projektionsvektor.png  used on input line 136
@@ -2206,7 +2206,7 @@ Overfull \hbox (5.00465pt too wide) in paragraph at lines 142--144
 n der Ver-längerung von der Render-
  []
 
-<pictures/Eckpunkte.png, id=260, 211.38976pt x 237.88875pt>
+<pictures/Eckpunkte.png, id=263, 211.38976pt x 237.88875pt>
 File: pictures/Eckpunkte.png Graphic file (type png)
 <use pictures/Eckpunkte.png>
 Package pdftex.def Info: pictures/Eckpunkte.png  used on input line 146.
@@ -2222,37 +2222,64 @@ Overfull \hbox (2.28062pt too wide) in paragraph at lines 2--1
 n Ebene für den hor-i-zon-talen Rich-
  []
 
-[16 <./pictures/Eckpunkte.png>]) (content/ausblick.tex) [17] [18]
-<pictures/sig_muster.png, id=283, 94.21703pt x 50.76634pt>
-File: pictures/sig_muster.png Graphic file (type png)
-<use pictures/sig_muster.png>
-Package pdftex.def Info: pictures/sig_muster.png  used on input line 177.
-(pdftex.def)             Requested size: 71.13188pt x 38.3295pt.
-<pictures/sig_example.png, id=284, 106.18813pt x 51.20972pt>
-File: pictures/sig_example.png Graphic file (type png)
-<use pictures/sig_example.png>
-Package pdftex.def Info: pictures/sig_example.png  used on input line 177.
-(pdftex.def)             Requested size: 71.13188pt x 34.30328pt.
- [19
+[16 <./pictures/Eckpunkte.png>]) (content/ausblick.tex) [17]
+(content/erklÃ¤rung.tex
+
+pdfTeX warning: pdflatex (file ./ErklÃ¤rung der Studierenden.pdf): PDF inclusio
+n: found PDF version <1.7>, but at most version <1.5> allowed
+<ErklÃ¤rung der Studierenden.pdf, id=282, 613.29124pt x 844.15375pt>
+File: ErklÃ¤rung der Studierenden.pdf Graphic file (type pdf)
+<use ErklÃ¤rung der Studierenden.pdf>
+Package pdftex.def Info: ErklÃ¤rung der Studierenden.pdf  used on input line 4.
+
+(pdftex.def)             Requested size: 388.38017pt x 534.57616pt.
+)
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [18]
+[19 <./ErklÃ¤rung der Studierenden.pdf>] (content/bib.tex
+Overfull \hbox (31.73756pt too wide) in paragraph at lines 15--20
+\T1/SourceSerifPro-LF/m/n/10.95 url="https://www.computerbase.de/2021-08/tiefen
+kameras-und-co-intel-gibt-realsense-
+ []
 
 
+Overfull \hbox (48.12965pt too wide) in paragraph at lines 27--32
+\T1/SourceSerifPro-LF/m/n/10.95 url="http://csundergrad.science.uoit.ca/courses
+/cv-notes/notebooks/19-homography.html"
+ []
 
- <./pictures/sig_muster.png> <./pictures/sig_example.png>] (bfhthesis.bbl [20
+
+Underfull \hbox (badness 10000) in paragraph at lines 27--32
+
+ []
 
 
+Overfull \hbox (27.86127pt too wide) in paragraph at lines 33--38
+\T1/SourceSerifPro-LF/m/n/10.95 url="https://towardsdatascience.com/estimating-
+a-homography-matrix-522c70ec4b2c"
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 33--38
+
+ []
+
+) (bfhthesis.bbl [20
 
 ]
 chapter without number
-) [21] [22
+) [21
+
+
+] [22
 
 
 ] (bfhthesis.lof)
 \tf@lof=\write9
 \openout9 = `bfhthesis.lof'.
 
- [23]
-No file bfhthesis.ind.
-[24
+ [23] (bfhthesis.ind) [24
 
 
 
@@ -2307,10 +2334,10 @@ Package rerunfilecheck Info: File `bfhthesis.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 51719 strings out of 475210
- 1122326 string characters out of 5756112
+ 51727 strings out of 475210
+ 1122564 string characters out of 5756112
  1937785 words of memory out of 5000000
- 72286 multiletter control sequences out of 15000+600000
+ 72283 multiletter control sequences out of 15000+600000
  754863 words of font info for 85 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  128i,24n,136p,10958b,1223s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -2321,9 +2348,9 @@ ito/Nunito-Regular.pfb><C:/Users/bernh/AppData/Local/Programs/MiKTeX/fonts/type
 ograms/MiKTeX/fonts/type1/adobe/sourceserifpro/SourceSerifPro-Regular.pfb><C:/U
 sers/bernh/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/ms
 am10.pfb>
-Output written on bfhthesis.pdf (34 pages, 2140047 bytes).
+Output written on bfhthesis.pdf (34 pages, 2769056 bytes).
 PDF statistics:
- 503 PDF objects out of 1000 (max. 8388607)
- 110 named destinations out of 1000 (max. 500000)
- 398 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 513 PDF objects out of 1000 (max. 8388607)
+ 112 named destinations out of 1000 (max. 500000)
+ 409 words of extra memory for PDF output out of 10000 (max. 10000000)
 
